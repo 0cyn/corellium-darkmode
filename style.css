@@ -1,0 +1,85 @@
+.item-username a.body-1 {
+    display: none;
+}
+
+/* dark mode */
+
+.brand {
+    filter: invert(1);
+}
+
+input[type="text"] {
+    border: 1px solid #888888;
+    color: #ffffff;
+}
+
+.topnav .item-search input[type="text"] {
+    border: 1px solid #888888;
+    color: #ffffff;
+}
+
+.topnav .item-search::before {
+    filter: grayscale(1);
+}
+
+.topnav .items a.nav-link {
+    color: #b3b3b3;
+}
+
+.topnav .items a.nav-link.shown {
+    color: #f3f3f3;
+}
+
+.topnav .items a.nav-link::after {
+    background-color: #aaa;
+}
+
+.topnav .dropdown.right:not(.active) {
+    filter: brightness(4);
+}
+.dropdown.right.active .contents, .dropdown.right.active .contents::before, .dropdown.right.active .contents::after {
+    background-color: #676767;
+}
+
+.dropdown.right .contents .item {
+    color: #fdfdfd;
+}
+.device .toolbar .main {
+    background-color: #4a4a4a;
+}
+.device .toolbar .main, .main .tools-1, .main .tools-2, div.topnav {
+    background-color: #4a4a4a;
+    border-color: #3e3e3e;
+}
+.button, .device-button {
+    filter: brightness(1.8) grayscale(1);
+    background-color: #282828;
+}
+
+.device-info {
+    filter: brightness(4);
+}
+.device-options div, .device-options h2, .device-options span, .device-options p, .device-options h5 {
+    background-color: #404040;
+    filter: grayscale(1);
+    color: #dadada;
+    border-color: #888888;
+}
+.device-options h2, .device-options h5 {
+    color: #fff;
+}
+.device-tabs .device-tab {
+    filter: brightness(3);
+    color: #4a4a4a;
+}
+.display-section {
+    background-color: #404040;
+    border-right: 1px solid #333;
+}
+.device-tabs.single-page {
+    border-color: #333;
+}
+/* hack till i can fix scrollbar bg color */
+.connect-section.numbers-visible {
+    overflow: hidden;
+}
